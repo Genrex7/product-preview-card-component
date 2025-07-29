@@ -32,7 +32,7 @@ User should be able to:
 ### Links
 
 - Solution URL: [Github/Product-Preview-Card-Component](https://github.com/Genrex7/product-preview-card-component)
-- Live Site URL: [Frontend-Mentor/Product-Preview-Card-Component]()
+- Live Site URL: [Frontend-Mentor/Product-Preview-Card-Component](https://product-preview-card-component-ten-opal.vercel.app/)
 
 ## My process
 
