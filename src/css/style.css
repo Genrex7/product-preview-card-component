@@ -1,1 +1,56 @@
 @import 'tailwindcss';
+
+/* 
+01 LAYOUT
+    - Mobile: 375px
+    - Desktop: 1440px
+
+02 COLORS
+    - Primary
+        -- Green 500: hsl(158, 36%, 37%)
+        -- Green 700: hsl(158, 42%, 18%)
+
+    - Neutral
+        -- Black: hsl(212, 21%, 14%)
+        -- Grey: hsl(228, 12%, 48%)
+        -- Cream: hsl(30, 38%, 92%)
+        -- White: hsl(0, 0%, 100%)
+    
+
+03 TYPOGRAPHY
+
+    - FONTS FAMILY
+        -- [Montserrat](https://fonts.google.com/specimen/Montserrat)
+        -- 500, 700
+
+        -- [Fraunces](https://fonts.google.com/specimen/Fraunces)
+        -- 700
+
+    - Font Size (px):
+        40 / 28 / 20 / 14_paragraph /
+
+    - Font Weight:
+        500 / 700
+
+    - Spacing (px):
+        32 / 24 / 16 / 12 / 8 / 4
+
+*/
+
+@theme {
+	--font-montserrat: 'Montserrat';
+	--font-fraunces: 'Fraunces';
+
+	--color-Green-500: hsl(158, 36%, 37%);
+	--color-Green-700: hsl(158, 42%, 18%);
+
+	--color-Black: hsl(212, 21%, 14%);
+	--color-Grey: hsl(228, 12%, 48%);
+	--color-Cream: hsl(30, 38%, 92%);
+	--color-White: hsl(0, 0%, 100%);
+
+	--breakpoint-desktop: 90rem;
+	--breakpoint-375px: 24rem;
+	--breakpoint-400px: 25rem;
+	--breakpoint-425px: 425px;
+}
